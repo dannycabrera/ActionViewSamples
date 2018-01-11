@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ActionComponents.ACView
+        android:id="@+id/draggableView"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:text="@string/hello"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="#ffd71a1a">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:text="Drag Me"
+            android:layout_centerInParent="true" />
+    </ActionComponents.ACView>
+</RelativeLayout>
